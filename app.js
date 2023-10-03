@@ -20,7 +20,7 @@ color = prompt('Quale è il tuo colore preferito?');
 console.log(color);
 
 // - dichiarare una variabile con il numero 21
-const number = 21;
+let number = Math.floor((Math.random() * 100) + 1);
 
 // - concatenare il nome dell'utente,il cognome,il colore preferito e il numero 21 con la frase "La tua password è":
 //   - dichiarare una variabile con la frase "La tua password è"
